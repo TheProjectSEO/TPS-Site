@@ -257,7 +257,10 @@ review_assignments   # Link reviews to experiences
 3. **Environment setup**
    ```bash
    cp .env.local.example .env.local
-   # Add your Supabase credentials
+   # Edit .env.local and add your actual Supabase credentials:
+   # - NEXT_PUBLIC_SUPABASE_URL (from your Supabase project settings)
+   # - NEXT_PUBLIC_SUPABASE_ANON_KEY (from your Supabase project API settings)
+   # - GEMINI_API_KEY (optional, for AI features)
    ```
 
 4. **Database setup**
